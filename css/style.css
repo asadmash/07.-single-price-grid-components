@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Cyan: hsl(179, 62%, 43%);
+    --lightCyan: hsl(179, 47%, 52%);
+    --BrightYellow: hsl(71, 70%, 48%); 
+    --DarkYellow: hsl(71, 76%, 36%); 
+    --LightGray: hsl(204, 43%, 93%);
+    --GrayishBlue: hsl(218, 22%, 67%);
+    --Fontsize: 16px;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: var(--GrayishBlue);
+    min-height: 100vh;
+    width: 100vw;
+    padding: 75px 32px;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   border: transparent;
+   border-radius: 5px;
+   overflow: hidden;
+   max-width: 640px;
+}
+
+.community,.subscription,.about {
+    padding: 33px 30px;
+}
+
+.community {
+    background-color: var(--LightGray);
+}
+.subscription {
+    background-color: var(--Cyan);
+    color: var(--LightGray);
+    flex-basis: 50%;
+}
+.about {
+    background-color: var(--lightCyan);
+    flex-basis: 50%;
+}
+
+.community h1 {
+    color: var(--Cyan);
+}
+.community h2 {
+    color: var(--BrightYellow);
+    margin: 30px 0;
+}
+.community p {
+    color: var(--GrayishBlue);
+}
+
+.subscription .dollar{
+    color: rgba(255, 255, 255, 0.411);
+    margin: 30px 0 22px;
+}
+.dollar span {
+    color: var(--LightGray);
+    font-weight: 700;
+    font-size: 20px;
+}
+.subscription button {
+    color: var(--LightGray);
+    background-color: var(--BrightYellow);
+    border: none;
+    width: 100%;
+    padding: 18px 0;
+    border-radius: 6px;
+    margin-top: 32px;
+}
+.subscription button:hover {
+    cursor: pointer;
+    background-color: var(--DarkYellow);
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.about h1 {
+    color: var(--LightGray);
+}
+.about p {
+    color: rgba(255, 255, 255, 0.411);
+}

@@ -1,0 +1,31 @@
+@media(min-width: 460px) {
+    
+    .community h1,
+    .subscription h1,
+    .about h1 {
+        font-size: 2rem;
+    }
+    .community p,
+    .subscription p,
+    .about p {
+        font-size: 1.125rem;
+    }
+.subscription button {
+    font-size: 1.125rem;
+}
+}
+
+@media (min-width: 640px) {
+    .more {
+        display: flex;
+        flex-direction: row;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  /* .container {
+    margin:  auto;
+  } */
+}
