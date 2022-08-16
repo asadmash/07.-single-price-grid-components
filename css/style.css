@@ -39,7 +39,7 @@ body {
     background-color: var(--LightGray);
 }
 .subscription {
-    background-color: var(--Cyan);
+   /* background-color: var(--Cyan); */
     color: var(--LightGray);
     flex-basis: 50%;
 }
