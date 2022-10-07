@@ -16,7 +16,7 @@
 
 body {
     font-family: 'Karla', sans-serif;
-    background-color: var(--GrayishBlue);
+    background-color: var(--Cyan);
     min-height: 100vh;
     width: 100vw;
     padding: 75px 32px;
